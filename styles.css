@@ -1,0 +1,159 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #5C7BF1;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    background: white;
+    box-shadow: 0 0 10px rgba(10, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.left {
+    background: #6383FA;
+    color: white;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    max-width: 50%;
+    max-height: 50%;
+}
+
+.right {
+    flex: 1;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 50%;
+    max-height: 50%;
+
+}
+
+form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background: #4a90e2;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+button:hover {
+    background: #357abd;
+}
+
+.options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    width: 100%;
+}
+
+.or-container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin: 20px 0;
+}
+
+.or {
+    padding: 0 10px;
+    font-size: 14px;
+    color: #666;
+    text-align: center;
+}
+
+.social-login {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+
+.line {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin: 20px 0;
+    justify-content: center;
+}
+
+.Reset {
+    text-decoration: none;
+}
+
+.create {
+    text-decoration: none;
+}
+
+.h11 {
+    text-align: center;
+    justify-content: center;
+}
+
+.Group3 {
+    transform: translate(-0100px, 2px);
+}
+
+.Group1 {
+    transform: translate(-0240px, -114px);
+}
+
+.vasd {
+    transform: translate(-90px, -205px);
+    font-weight: bold;
+    font-size: 36px;
+}
+
+.Group5 {
+    transform: translate(-240px, 335px);
+}
+
+.Group4 {
+    transform: translate(117px, 282px);
+}
+
+#remember {
+    align-items: center;
+}
+
+.p {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+#remember {
+    display: flex;
+    align-items: baseline;
+}
